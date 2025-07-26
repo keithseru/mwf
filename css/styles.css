@@ -1,3 +1,17 @@
 /* Index page styles */
 
 /* Login page styles */
+.bg-chestnut{
+    background-color: #964B00;
+    color: #fff;
+}
+
+.navbar-nav{
+    margin-right: 5rem;
+}
+
+.nav-item:hover{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bolder;
+}
