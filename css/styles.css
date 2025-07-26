@@ -45,3 +45,26 @@ carousel-item img{
     width: 280px;
     height: 100vh;
 }
+
+#inventoryMenu a {
+  text-decoration: none;
+  color: #fff; 
+}
+
+#inventoryMenu a:hover {
+  text-decoration: underline; 
+}
+
+.sales-search{
+    max-width: 300px;
+}
+
+.sales-stats p{
+    font-size: 12px;
+    
+}
+
+.nav-link.active {
+  font-weight: bolder; 
+  text-decoration: underline; 
+}
