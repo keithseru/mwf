@@ -68,3 +68,19 @@ carousel-item img{
   font-weight: bolder; 
   text-decoration: underline; 
 }
+
+.bg-limegreen{
+    background-color: limegreen;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.bg-lightpink{
+    background-color: lightpink;
+}
+
+.bg-lightyellow{
+    background-color: lightgoldenrodyellow;
+}
