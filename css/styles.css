@@ -37,7 +37,11 @@ carousel-item img{
 
 .nav-item:hover{
     color: #fff;
-    text-decoration: underline;
     font-weight: bolder;
 }
 
+/* Sales page */
+#side-menu{
+    width: 280px;
+    height: 100vh;
+}
