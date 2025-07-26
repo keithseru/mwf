@@ -1,4 +1,9 @@
 /* Index page styles */
+carousel-item img{
+    max-height: 600px;
+    object-fit: cover;
+}
+
 
 /* Login page styles */
 .bg-chestnut{
