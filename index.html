@@ -39,22 +39,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">
+                            <button type="button" class="btn btn-secondary">Log In</button>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </nav>
 
     <!--Caurousel-->
-    <div id="product-carousel" class="carousel slide">
+    <div id="product-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#product-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -99,12 +102,12 @@
 
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" data-bs-target="#product-carousel"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next" type="button" data-bs-target="#product-carousel"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -113,29 +116,35 @@
 
     <!--Shop By Category-->
     <div class="container my-5">
-        <h4 class="text-center">Shop By Category</h4><hr>
+        <h4 class="text-center">Shop By Category</h4>
+        <hr>
         <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
             <div class="col">
-                <div class="card rounded-circle">
-                    <a href=""><img src="./img/home-furniture-icon.png" class="card-img-top rounded-circle hover-ring" alt="Chair"></a>  
+                <div class="card shop-card rounded-circle">
+                    <a href=""><img src="./img/home-furniture-icon.png" class="card-img-top rounded-circle hover-ring"
+                            alt="Chair"></a>
                 </div>
             </div>
             <div class="col">
-                <div class="card rounded-circle">
-                    <a href=""><img src="./img/office-furniture-icon.png" class="card-img-top rounded-circle hover-ring" alt="Table"></a> 
+                <div class="card shop-card rounded-circle">
+                    <a href=""><img src="./img/office-furniture-icon.png" class="card-img-top rounded-circle hover-ring"
+                            alt="Table"></a>
                 </div>
             </div>
             <div class="col">
-                <div class="card rounded-circle">
-                    <a href=""><img src="./img/wood-icon.png" class="card-img-top rounded-circle hover-ring" alt="Cabinet"></a>  
+                <div class="card shop-card rounded-circle">
+                    <a href=""><img src="./img/wood-icon.png" class="card-img-top rounded-circle hover-ring"
+                            alt="Cabinet"></a>
                 </div>
             </div>
             <div class="col">
-                <div class="card rounded-circle">
-                    <a href=""><img src="./img/timber-icon.png" class="card-img-top rounded-circle hover-ring" alt="Sofa"></a>  
+                <div class="card shop-card rounded-circle">
+                    <a href=""><img src="./img/timber-icon.png" class="card-img-top rounded-circle hover-ring"
+                            alt="Sofa"></a>
                 </div>
             </div>
-        </div><hr>
+        </div>
+        <hr>
     </div>
 
     <!--Our Clients-->
