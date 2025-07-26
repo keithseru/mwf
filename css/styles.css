@@ -4,6 +4,22 @@ carousel-item img{
     object-fit: cover;
 }
 
+.card {
+  border: none;
+  box-shadow: none;
+  width: 200px;
+}
+
+.hover-ring{
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.hover-ring:hover{
+    box-shadow: 0 0 0 4px #8B4513;
+    border-radius: 50%;
+}
+
+
 
 /* Login page styles */
 .bg-chestnut{
