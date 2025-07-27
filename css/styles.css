@@ -104,4 +104,10 @@ h2{
     background-color: #F0E1DA;
 }
 
+/* Product page */
+.product-cards{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
