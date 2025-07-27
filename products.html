@@ -50,10 +50,34 @@
         </div>
     </nav>
 
+    <div class="container d-flex justify-content-end align-items-center my-4 gap-3 flex-wrap">
+        <!-- Filter by Category -->
+        <div>
+            <label for="filterCategory" class="form-label mb-0 me-2">Filter by:</label>
+            <select class="form-select form-select-sm" id="filterCategory">
+                <option selected>All Categories</option>
+                <option value="dining table sets">Furniture</option>
+                <option value="sofas">Timber</option>
+                <option value="office sets">Cabinets</option>
+            </select>
+        </div>
+
+        <!-- Sort By -->
+        <div>
+            <label for="sortProducts" class="form-label mb-0 me-2">Sort by:</label>
+            <select class="form-select form-select-sm" id="sortProducts">
+                <option selected>Newest</option>
+                <option value="priceAsc">Price: Low to High</option>
+                <option value="priceDesc">Price: High to Low</option>
+                <option value="nameAsc">Name: A to Z</option>
+            </select>
+        </div>
+    </div>
+
     <!-- Product Content Cards-->
     <div class="container py-4">
         <div class="d-grid gap-4 product-cards">
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/sofa-1.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Light Grey Two Seater Sofa</h5>
@@ -61,7 +85,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/sofa-2.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Orange Four Seater Sofa</h5>
@@ -69,7 +93,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/sofa-3.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Salmon Two Seater Sofa</h5>
@@ -77,7 +101,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/coffee-table.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Coffee Table</h5>
@@ -85,7 +109,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/dining-tabe.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Four Seater Dining Table Set</h5>
@@ -93,7 +117,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/dining-table-2.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Six Seater Dining Table Set</h5>
@@ -101,7 +125,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/table-2.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Six Seater Dining Table Set</h5>
@@ -109,7 +133,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/table.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Simple Office Set</h5>
@@ -117,7 +141,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/office.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Executive Office Set</h5>
@@ -125,7 +149,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/office-2.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Luxury Office Set</h5>
@@ -133,7 +157,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/patio.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Patio Seating Set</h5>
@@ -141,7 +165,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/bedside-table.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">White Bedside Cabinet</h5>
@@ -149,7 +173,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/kitchen.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">Kitchen Barstool Set</h5>
@@ -157,7 +181,7 @@
                     <button class="btn text-white mb-4">Add to Cart</button>
                 </div>
             </div>
-            <div class="card h-100">
+            <div class="card h-100 bg-brown">
                 <img src="./img/furniture/bedside-table.png" class="card-img-top" alt="white sofa">
                 <div class="cardbody text-center">
                     <h5 class="card-title mt-3">White Bedside Cabinet</h5>
