@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 /* Index page styles */
 .carousel-item img{
     max-height: 650px;
@@ -22,14 +25,22 @@
 .btn{
     background-color: #663422;
     border: #663422;
+    font-weight: bold;
 }
 
 .btn:hover{
-    border: solid 3px;
+    border: solid 2px #522c1f;
+    background-color: #8B4513;
+    color: #522c1f !important;
 }
 
 h2{
     font-family: cursive;
+}
+
+hr {
+    border: solid 1px #522c1f;
+    background-color: #522c1f;
 }
 
 
@@ -37,11 +48,16 @@ h2{
 /* Login page styles */
 #log-in{
     background-color: #F0E1DA;
+    font-family: cursive;
 }
 
 .bg-chestnut{
     background-color: #964B00;
     color: #fff;
+}
+
+.bg-chocolate{
+    color: #522c1f !important;
 }
 
 .navbar-nav{
@@ -106,6 +122,7 @@ h2{
 
 .bg-brown{
     background-color: #F0E1DA;
+    color: #522c1f
 }
 
 /* Product page */
