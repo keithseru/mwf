@@ -1,6 +1,6 @@
 /* Index page styles */
-carousel-item img{
-    max-height: 600px;
+.carousel-item img{
+    max-height: 700px;
     object-fit: cover;
 }
 
