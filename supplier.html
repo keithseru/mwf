@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap Stylesheets-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!--Custom Stylesheets-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>MWF-Supplier</title>
+</head>
+
+<body>
+    <!--Navbar/Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-chestnut py-4 fs-5">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand text-white" href="./index.html">Mayombo Wood and Furniture</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto gap-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">Furniture Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Timber and Wood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sales.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">
+                            <button type="button" class="btn btn-secondary">Log In</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex">
+        <!--Side bar Menu-->
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark min-vh-100" id="customer-side-menu">
+            <!--Profile Section-->
+            <div class="d-flex flex-column align-items-center mb-4 text-white">
+                <img src="./img/profile-image.png" class="rounded-circle object-fit-cover" width="100px"
+                    alt="profile image">
+                <strong class="fs-5 mt-3">James Kizza</strong>
+                <small class="fs-6 mt-2">jkizza@mayombo.ac.ug</small>
+            </div><hr>
+
+            <ul class="nav flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/home.svg"></use>
+                        </svg>
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/speedometer.svg"></use>
+                        </svg>
+                        Dashboard
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white active">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/cash-stack.svg"></use>
+                        </svg>
+                        Add Product
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="collapse"
+                        data-bs-target="#inventoryMenu">
+                        <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="./img/shop.svg"></use>
+                        </svg>
+                        Stock Summary
+                    </a>
+                    <div class="collapse ms-4 mt-2" id="inventoryMenu">
+                        <ul class="list-unstyled ms-4 mt-2">
+                            <li><a class="text-white d-block py-1" href="#">Timber</a></li>
+                            <li><a class="text-white d-block py-1" href="#">Wood</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/person.svg"></use>
+                        </svg>
+                        Pending Approvals
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/arrow-counterclockwise.svg"></use>
+                        </svg>
+                        Reports
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/star.svg"></use>
+                        </svg>
+                        Payments
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="./img/question-circle.svg"></use>
+                        </svg>
+                        Help and Support
+                    </a>
+                </li>
+            </ul><hr>
+
+            <div class="dropdown"> <a href="#"
+                    class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false"> <img src="./img/profile-image.png" alt=""
+                        width="32" height="32" class="rounded-circle me-2"> <strong>jkizza</strong> </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="./login.html">Sign out</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer class="bg-chestnut text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Company Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Mayondo Wood & Furniture Ltd</h5>
+                    <p>Supplying quality timber and custom furniture to businesses across Uganda. Visit our showroom and
+                        warehouse for home, office, and wholesale solutions.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Timber and Wood</a></li>
+                        <li><a href="./products.html" class="text-light text-decoration-none">Furniture Shop</a></li>
+                        <li><a href="./contact-us.html" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div class="col-md-3 mb-4">
+                    <h5>Shop By Category</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home Furniture</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Office Furniture</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Timber</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Raw Wood</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-3 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt"></i> Kampala, Uganda</li>
+                        <li><i class="bi bi-envelope"></i> mwf@mayombo.ac.ug</li>
+                        <li><i class="bi bi-telephone"></i> +256 701 123321</li>
+                        <li><i class="bi bi-clock"></i> Mon-Sat: 8am - 6pm <br> Sun: 10am - 4pm</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Bootstrap Javascript-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-..." crossorigin="anonymous"></script>
+</body>
+
+</html>
