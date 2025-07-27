@@ -10,7 +10,7 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
     <!--Custom Stylesheets-->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
     <title>MWF-Supplier</title>
 </head>
@@ -57,9 +57,10 @@
             <div class="d-flex flex-column align-items-center mb-4 text-white">
                 <img src="./img/profile-image.png" class="rounded-circle object-fit-cover" width="100px"
                     alt="profile image">
-                <strong class="fs-5 mt-3">James Kizza</strong>
-                <small class="fs-6 mt-2">jkizza@mayombo.ac.ug</small>
-            </div><hr>
+                <strong class="fs-5 mt-3">Leticia Kasigazi</strong>
+                <small class="fs-6 mt-2">lkasigazi@email.com</small>
+            </div>
+            <hr>
 
             <ul class="nav flex-column mb-auto">
                 <li class="nav-item">
@@ -99,7 +100,7 @@
                     </a>
                     <div class="collapse ms-4 mt-2" id="inventoryMenu">
                         <ul class="list-unstyled ms-4 mt-2">
-                            <li><a class="text-white d-block py-1" href="#">Furniture</a></li>
+                            <li><a class="text-white d-block py-1" href="./products.html">Furniture</a></li>
                             <li><a class="text-white d-block py-1" href="#">Timber and Wood</a></li>
                         </ul>
                     </div>
@@ -140,12 +141,13 @@
                         Help and Support
                     </a>
                 </li>
-            </ul><hr>
+            </ul>
+            <hr>
 
             <div class="dropdown"> <a href="#"
                     class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
                     data-bs-toggle="dropdown" aria-expanded="false"> <img src="./img/profile-image.png" alt=""
-                        width="32" height="32" class="rounded-circle me-2"> <strong>jkizza</strong> </a>
+                        width="32" height="32" class="rounded-circle me-2"> <strong>lkasigazi</strong> </a>
                 <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
                     <li><a class="dropdown-item" href="#">Settings</a></li>
                     <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -157,7 +159,43 @@
             </div>
 
         </div>
+
+        <!-- Main Content-->
+        <div class="main-body flex-grow-1 p-3 bg-secondary">
+            <!-- Product Content Cards-->
+            <div class="container py-4 product-container">
+                <h2 class="bg-chocolate mb-3">Order History</h2>
+                <div class="d-grid gap-4 order-history-cards">
+                    <div class="card h-100 bg-brown order-card">
+                        <img src="./img/furniture/sofa-1.png" class="card-img-top" alt="white sofa">
+                        <div class="cardbody text-center">
+                            <h5 class="card-title mt-3">Light Grey Two Seater Sofa</h5>
+                            <p class="card-text fw-bold mb-3 fs-4">UGX 4,500,000</p>
+                            <button class="btn text-white mb-4">Order Again</button>
+                        </div>
+                    </div>
+                    <div class="card h-100 bg-brown order-card">
+                        <img src="./img/furniture/sofa-2.png" class="card-img-top" alt="white sofa">
+                        <div class="cardbody text-center">
+                            <h5 class="card-title mt-3">Orange Four Seater Sofa</h5>
+                            <p class="card-text fw-bold mb-3 fs-4">UGX 7,000,000</p>
+                            <button class="btn text-white mb-4">Order Again</button>
+                        </div>
+                    </div>
+                    <div class="card h-100 bg-brown order-card">
+                        <img src="./img/furniture/table.png" class="card-img-top" alt="white sofa">
+                        <div class="cardbody text-center">
+                            <h5 class="card-title mt-3">Simple Office Set</h5>
+                            <p class="card-text fw-bold mb-3 fs-4">UGX 3,500,000</p>
+                            <button class="btn text-white mb-4">Order again</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 
     <!--Footer-->
     <footer class="bg-chestnut text-light pt-5 pb-3">

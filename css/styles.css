@@ -75,12 +75,12 @@ hr {
     height: 100vh;
 }
 
-#inventoryMenu a {
+#inventoryMenu a, #customerMenu a {
   text-decoration: none;
   color: #fff; 
 }
 
-#inventoryMenu a:hover {
+#inventoryMenu a:hover, #customerMenu a:hover {
   text-decoration: underline; 
 }
 
@@ -130,5 +130,11 @@ hr {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.order-history-cards{
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 
