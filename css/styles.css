@@ -19,11 +19,16 @@
     border-radius: 50%;
 }
 
+.btn{
+    background-color: #663422;
+    border: #663422;
+}
+
 
 
 /* Login page styles */
 #log-in{
-    background-color: #B5651D;
+    background-color: #F0E1DA;
 }
 
 .bg-chestnut{
@@ -84,3 +89,15 @@
 .bg-lightyellow{
     background-color: lightgoldenrodyellow;
 }
+
+/*Contact Us*/
+.contact-us{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.bg-brown{
+    background-color: #F0E1DA;
+}
+
+
